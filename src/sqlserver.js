@@ -102,7 +102,7 @@ function getFieldDataOfRecordSet(rs, field) {
       value = rs.getBoolean(field.name);
       break;
     case "YEAR_MONTH_DAY_SECOND":
-      value = rs.getDate(field.name);
+      value = dateTimeFormat(rs.getTimestamp(field.name));
       break;
     default:
       // 対応していないものは随時追加してください。
