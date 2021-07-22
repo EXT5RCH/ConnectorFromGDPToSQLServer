@@ -1,0 +1,12 @@
+{
+  "dataStudio": {
+    "name": "ConnectorFromGDPToSQLServer",
+    "logoUrl": "../static/datastudio_sprite1.svg",
+    "company": "EXT5RCH",
+    "companyUrl": "https://github.com/EXT5RCH",
+    "addonUrl": "https://github.com/google/datastudio/tree/master/community-connectors/npm-downloads",
+    "supportUrl": "https://github.com/EXT5RCH/ConnectorFromGDPToSQLServer/issues",
+    "description": "A connector that connects to SQL Server from the Google Data Portal.",
+    "sources": ["npm"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "connectorfromgdptosqlserver",
+  "version": "0.0.0",
+  "scripts": {
+    "push": "dscc-scripts connector push_changes",
+    "watch": "dscc-scripts connector watch_changes",
+    "open": "dscc-scripts connector open_script"
+  },
+  "devDependencies": {
+    "@google/clasp": "^2.4.0",
+    "@google/dscc-scripts": "^1.0.17"
+  }
+}
